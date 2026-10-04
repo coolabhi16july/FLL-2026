@@ -18,11 +18,14 @@ def run_mission_10():
 
             # TODO: implement real sequence
     
-    bot.drive_forward(35.5, 200)
-    bot.move_left_arm(-300, 500)
-    bot.drive_backward(2, 100)
-    bot.move_left_arm(-350, 550)
-    bot.drive_forward(6, 300)
+    bot.drive_forward(50, 300)
+    bot.drive_backward(50, 250)
+    wait(5000)
+    bot.drive_forward(6.56, 200)
+    bot.turn_right(40, 100)
+    bot.drive_forward(32, 200)
+    bot.move_right_arm(300, 150)
+    bot.drive_backward(40, 200)
     try:
         print("[Mission 3] Complete")
         bot.hub.speaker.beep(frequency=1000, duration=200)
