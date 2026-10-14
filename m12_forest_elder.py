@@ -22,14 +22,12 @@ def run_mission_12():
 
 
             # TODO: implement real sequence
-    bot.drive_forward(34, 110)
+    bot.drive_forward(34, 150)
     bot.move_right_arm(100, 100)
-    bot.drive_backward(4, 100)
-    bot.move_right_arm(-50, 100)
-    bot.drive_backward(11.5, 100)
-    bot.turn_left(5, 50)
-    bot.move_right_arm(-90, 100)
-    bot.drive_backward(25, 150)
+    bot.drive_backward(17, 100)
+    bot.turn_left(7, 50)
+    bot.move_right_arm(-110, 100)
+    bot.drive_backward(25, 250)
 
     try:
         print("[Mission 12] Complete")
