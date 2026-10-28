@@ -18,9 +18,8 @@ def run_mission_10():
 
             # TODO: implement real sequence
     
-    bot.drive_forward(80, 300)
-    bot.move_right_arm(-2000, 1000)
-    bot.drive_backward(80, 300)
+    bot.drive_forward(75.25, 250)
+    bot.move_right_arm(475, 550)
     #bot.turn_left(28, 150)
     #bot.drive_forward(10, 200)
     #bot.move_left_arm(70, 150)
