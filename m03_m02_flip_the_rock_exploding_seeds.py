@@ -19,12 +19,12 @@ def run_mission_10():
             # TODO: implement real sequence
     
     bot.drive_forward(50, 300)
-    bot.drive_backward(50, 250)
+    bot.drive_backward(50, 250)#mission 3 ends
     wait(5000)
-    bot.drive_forward(6.56, 200)
+    bot.drive_forward(6.56, 200)#mission 2 starts
     bot.turn_right(40, 100)
     bot.drive_forward(32, 200)
-    bot.move_right_arm(300, 150)
+    bot.move_right_arm(300, 150)#lifting the seed
     bot.drive_backward(40, 200)
     try:
         print("[Mission 3] Complete")
