@@ -25,7 +25,16 @@ def run_mission_10():
     bot.turn_right(40, 100)
     bot.drive_forward(32, 200)
     bot.move_right_arm(300, 150)#lifting the seed
-    bot.drive_backward(40, 200)
+    bot.drive_backward(10, 200)
+    bot.turn_right(35, 150)
+    bot.drive_forward(35, 250)
+    bot.turn_left(30, 150)
+    bot.drive_forward(22, 250)
+    bot.turn_right(28, 150)
+    bot.drive_forward(30, 200)
+    bot.move_right_arm(40, 150)#picking up second seed 
+    bot.turn_right(45, 150)
+    bot.drive_forward(40, 300)
     try:
         print("[Mission 3] Complete")
         bot.hub.speaker.beep(frequency=1000, duration=200)
