@@ -18,15 +18,21 @@ def run_mission_10():
 
             # TODO: implement real sequence
     
-    bot.drive_forward(68, 300)
-    bot.turn_left(41.86, 30)
+    bot.drive_forward(65, 275)
+    bot.turn_left(39, 150)
     bot.drive_forward(10, 100)
-    bot.move_left_arm(50, 100)
-    bot.drive_backward(3, 100)
-    bot.move_left_arm(-70, 100)
+    bot.move_right_arm(200, 100)
     bot.drive_backward(17, 175)
-    bot.turn_right(50, 30)
+    bot.turn_right(65, 30)
     bot.drive_backward(75, 400)
+    wait(7000)
+    bot.drive_forward(67, 200)
+    bot.turn_left(42.5, 150)
+    bot.drive_forward(5, 100)
+    bot.move_right_arm(-200, 150)
+    bot.drive_backward(5, 100)
+    bot.turn_right(45, 200)
+    bot.drive_backward(70, 300)
 
     try:
         print("[Mission 3] Complete")
