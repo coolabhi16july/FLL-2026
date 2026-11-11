@@ -18,20 +18,21 @@ def run_mission_10():
 
             # TODO: implement real sequence
     
-    bot.drive_forward(65, 275)
-    bot.turn_left(39, 150)
+    bot.drive_forward(67, 275)
+    wait(500)
+    bot.turn_left(32, 150)
     bot.drive_forward(10, 100)
     bot.move_right_arm(200, 100)
-    bot.drive_backward(17, 175)
-    bot.turn_right(65, 30)
+    bot.drive_backward(20, 175)
+    bot.turn_right(45, 150)
     bot.drive_backward(75, 400)
     wait(7000)
-    bot.drive_forward(67, 200)
+    bot.drive_forward(70, 200)
     bot.turn_left(42.5, 150)
     bot.drive_forward(5, 100)
     bot.move_right_arm(-200, 150)
-    bot.drive_backward(5, 100)
-    bot.turn_right(45, 200)
+    bot.drive_backward(15, 100)
+    bot.turn_right(60, 150)
     bot.drive_backward(70, 300)
 
     try:
