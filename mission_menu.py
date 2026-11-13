@@ -7,23 +7,27 @@ implementation this file follows.
 
 from pybricks.tools import hub_menu, wait
 
-# Import mission modules
-import m01_m02_surface_map as m01_m02
-import m13_statuerebuild_deliver_artifact as m13
-import m11_m12_angler_salvage as m11_m12
-import m03_m13_m09_mineshaft_statue_market as m03_m13_m09
-import m05_m06_m07_m08_habitat_forge_lift_silo as m05_m06_m07_m08
-import m10_scales as m10
+# Import mission modules 
+import m01_Drone_Survey as m01
+import m03_m02_flip_the_rock_exploding_seeds as m03_m02
+import m04_lucky_leaves as m04
+import m06_m07_m011_final as m06_m07_11
+import m09_lifting_the_platform as m09
+import m12_forest_elder as m12
+import m12_part2 as m12_2
+import m13_keystone_species as m13
 
 # Mission dictionary
-OPTION_LABELS = ("1", "2", "3", "4", "5", "6")
+OPTION_LABELS = ("1", "2", "3", "4", "5", "6", "7", "8")
 MISSIONS = {
-    "1": m01_m02.run_mission_1_2,
-    "2": m13.run_mission_13,
-    "3": m11_m12.run_mission_11_12,
-    "4": m03_m13_m09.run_mission_3_13_9,
-    "5": m05_m06_m07_m08.run_mission_5_6_7_8,
-    "6": m10.run_mission_10,
+    "1": m01.run_mission_01,
+    "2": m03_m02.run_mission_03_02,
+    "3": m04.run_mission_04,
+    "4": m12_2.run_mission_12_2,
+    "5": m06_m07_11.run_mission_06_07_11,
+    "6": m09.run_mission_09,
+    "7": m12.run_mission_12,
+    "8": m13.run_mission_13,
 }
 
 
