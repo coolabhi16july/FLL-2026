@@ -5,10 +5,10 @@ Moves forward and in a diagonal position, it lifts up the tree.
 from base_robot import PybricksBot
 from pybricks.tools import wait
 
-def run_mission_12():
+def run_mission_12_2():
     bot = PybricksBot()
     try:
-        print("[Mission 12] Starting")
+        print("[Mission 12 Part 2] Starting")
         bot.hub.speaker.beep()
     except Exception:
         pass
@@ -23,11 +23,11 @@ def run_mission_12():
     bot.drive_backward(50, 550)
     
     try:
-        print("[Mission 12] Complete")
+        print("[Mission 12 Part 2] Complete")
         bot.hub.speaker.beep(frequency=1000, duration=200)
     except Exception:
         pass
 
 
 if __name__ == "__main__":
-    run_mission_12()
+    run_mission_12_2()

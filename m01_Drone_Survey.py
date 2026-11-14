@@ -8,10 +8,10 @@ from base_robot import PybricksBot
 from pybricks.tools import wait
 
 
-def run_mission_10():
+def run_mission_01():
     bot = PybricksBot()
     try:
-        print("[Mission 1] Starting")
+        print("[Mission 01] Starting")
         bot.hub.speaker.beep()
     except Exception:
         pass
@@ -31,4 +31,4 @@ def run_mission_10():
 
 
 if __name__ == "__main__":
-    run_mission_10()
+    run_mission_01()

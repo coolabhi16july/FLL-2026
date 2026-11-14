@@ -8,10 +8,10 @@ from base_robot import PybricksBot
 from pybricks.tools import wait
 
 
-def run_mission_10():
+def run_mission_03_02():
     bot = PybricksBot()
     try:
-        print("[Mission 3] Starting")
+        print("[Mission 03 Part 2] Starting")
         bot.hub.speaker.beep()
     except Exception:
         pass
@@ -29,20 +29,20 @@ def run_mission_10():
     bot.turn_right(35, 150)
     bot.drive_forward(35, 250)
     bot.turn_left(40, 150)
-    bot.drive_forward(13, 250)
+    bot.drive_forward(19, 250)
     bot.turn_right(30, 150)
     bot.move_right_arm(-260, 250)
-    bot.drive_forward(33, 200)
-    bot.turn_left(17, 100)
+    bot.drive_forward(28, 200)
+    bot.turn_left(20, 100)
     bot.move_right_arm(140, 150)#picking up second seed 
     bot.turn_right(50, 150)
     bot.drive_forward(80, 300)
     try:
-        print("[Mission 3] Complete")
+        print("[Mission 03 Part 2] Complete")
         bot.hub.speaker.beep(frequency=1000, duration=200)
     except Exception:
         pass
 
 
 if __name__ == "__main__":
-    run_mission_10()
+    run_mission_03_02()
