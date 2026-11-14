@@ -1,4 +1,4 @@
-"""Mission 3 sequence.python --version
+"""Mission 1 sequence.python --version
 
 Stub mission grouped for menu option 4. Replace placeholder steps with
 actual mission logic.
@@ -8,18 +8,18 @@ from base_robot import PybricksBot
 from pybricks.tools import wait
 
 
-def run_mission_10():
+def run_mission_01():
     bot = PybricksBot()
     try:
-        print("[Mission 1] Starting")
+        print("[Mission 01] Starting")
         bot.hub.speaker.beep()
     except Exception:
         pass
 
             # TODO: implement real sequence
     bot.drive_forward(74, 200)
-    bot.turn_left(15, 100)
-    bot.drive_forward(8, 210)
+    bot.turn_left(20, 100)
+    bot.drive_forward(10, 210)
     bot.turn_left(35, 150)
     bot.turn_right(45, 150)
     bot.drive_backward(65, 500)
@@ -31,4 +31,4 @@ def run_mission_10():
 
 
 if __name__ == "__main__":
-    run_mission_10()
+    run_mission_01()

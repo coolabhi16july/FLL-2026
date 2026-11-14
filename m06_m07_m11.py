@@ -1,6 +1,6 @@
-"""Mission 3 sequence.python --version
+"""Mission 6&11 sequence.python --version
 
-Stub mission grouped for menu option 4. Replace placeholder steps with
+Stub mission grouped for menu option 6. Replace placeholder steps with
 actual mission logic.
 """
 
@@ -8,10 +8,10 @@ from base_robot import PybricksBot
 from pybricks.tools import wait
 
 
-def run_mission_10():
+def run_mission_06_07_11():
     bot = PybricksBot()
     try:
-        print("[Mission 6_7] Starting")
+        print("[Mission 06, 07, 11] Starting")
         bot.hub.speaker.beep()
     except Exception:
         pass
@@ -39,11 +39,11 @@ def run_mission_10():
 
     
     try:
-        print("[Mission 6_7] Complete")
+        print("[Mission 06, 07, 11] Complete")
         bot.hub.speaker.beep(frequency=1000, duration=200)
     except Exception:
         pass
 
 
 if __name__ == "__main__":
-    run_mission_10()
+    run_mission_06_07_11()
