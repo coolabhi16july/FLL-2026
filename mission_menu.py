@@ -21,8 +21,8 @@ import m13_keystone_species as m13
 OPTION_LABELS = ("1", "2", "3", "4", "5", "6", "7", "8")
 MISSIONS = {
     "1": m01.run_mission_01,
-    "2": m03_m02.run_mission_03_02,
-    "3": m04.run_mission_04,
+    "2": m04.run_mission_04,
+    "3": m03_m02.run_mission_03_02,
     "4": m12_2.run_mission_12_2,
     "5": m06_m07_11.run_mission_06_07_11,
     "6": m09.run_mission_09,

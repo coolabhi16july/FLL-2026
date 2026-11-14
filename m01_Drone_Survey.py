@@ -1,4 +1,4 @@
-"""Mission 3 sequence.python --version
+"""Mission 1 sequence.python --version
 
 Stub mission grouped for menu option 4. Replace placeholder steps with
 actual mission logic.
