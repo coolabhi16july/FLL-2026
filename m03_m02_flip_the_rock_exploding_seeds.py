@@ -29,7 +29,7 @@ def run_mission_03_02():
     bot.turn_right(35, 150)
     bot.drive_forward(35, 250)
     bot.turn_left(40, 150)
-    bot.drive_forward(19, 250)
+    bot.drive_forward(22, 250)
     bot.turn_right(30, 150)
     bot.move_right_arm(-260, 250)
     bot.drive_forward(28, 200)
