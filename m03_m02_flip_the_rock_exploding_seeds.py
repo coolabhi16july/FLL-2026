@@ -24,19 +24,19 @@ def run_mission_03_02():
     bot.drive_forward(6.56, 200)#mission 2 starts
     bot.turn_right(40, 100)
     bot.drive_forward(26.5, 200)
-    bot.move_right_arm(200, 150)#lifting the seed
+    bot.move_right_arm(120, 150)#lifting the seed
     bot.drive_backward(10, 200)
-    bot.turn_right(35, 150)
+    bot.turn_right(15, 150)
     bot.drive_forward(35, 250)
-    bot.turn_left(40, 150)
-    bot.drive_forward(22, 250)
-    bot.turn_right(30, 150)
-    bot.move_right_arm(-260, 250)
-    bot.drive_forward(28, 200)
-    bot.turn_left(20, 100)
-    bot.move_right_arm(140, 150)#picking up second seed 
-    bot.turn_right(50, 150)
-    bot.drive_forward(80, 300)
+    #bot.turn_left(40, 150)
+    #bot.drive_forward(24.5, 250)
+    #bot.turn_right(40, 150)
+    #bot.move_right_arm(-260, 250)
+    #bot.drive_forward(28, 200)
+    #bot.turn_left(20, 100)
+    #bot.move_right_arm(140, 150)#picking up second seed 
+    #bot.turn_right(50, 150)
+    #bot.drive_forward(80, 300)
     try:
         print("[Mission 03 Part 2] Complete")
         bot.hub.speaker.beep(frequency=1000, duration=200)
