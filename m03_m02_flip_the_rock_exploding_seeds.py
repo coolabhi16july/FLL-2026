@@ -23,7 +23,7 @@ def run_mission_03_02():
     wait(6000)
     bot.drive_forward(6.56, 200)#mission 2 starts
     bot.turn_right(40, 100)
-    bot.drive_forward(25, 200)
+    bot.drive_forward(26.5, 200)
     bot.move_right_arm(200, 150)#lifting the seed
     bot.drive_backward(10, 200)
     bot.turn_right(35, 150)
