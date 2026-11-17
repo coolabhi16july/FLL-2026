@@ -24,11 +24,10 @@ def run_mission_06_07_11():
             # TODO: implement real sequence
     bot.move_left_arm(570, 502)
     bot.drive_forward(65, 267)
-    bot.move_left_arm(-400, 502)
-    bot.move_left_arm(350, 200)
-    bot.drive_backward(11, 100)
-    bot.move_left_arm(-550, 502)
-    bot.turn_left(60, 125)
+    bot.move_left_arm(-250, 502)
+    bot.drive_backward(10, 200)
+    bot.move_left_arm(-500, 400)
+    bot.turn_left(56, 125)
     bot.drive_forward(40, 200)
     bot.turn_left(34, 152)
     bot.drive_backward(16, 72)    
@@ -37,34 +36,27 @@ def run_mission_06_07_11():
     bot.drive_forward(40,250)
     bot.turn_right(25, 102)
     bot.drive_forward(50,500)
-
     
-    # bot.move_left_arm(110, 75)
-    # bot.turn_left(90, 125)
-    # bot.drive_forward(40, 125)
-    # bot.turn_right(15, 75)
-    # bot.drive_forward(40, 125)
-   
+    
+    # bot.move_left_arm(570, 502)
+    # bot.drive_forward(65, 267)
+    # bot.move_left_arm(-400, 502)
+    # bot.move_left_arm(350, 200)
+    # bot.drive_backward(11, 100)
+    # bot.move_left_arm(-550, 502)
+    # bot.turn_left(60, 125)
+    # bot.drive_forward(40, 200)
+    # bot.turn_left(34, 152)
+    # bot.drive_backward(16, 72)    
+    # bot.drive_forward(2, 150)
+    # bot.turn_left(92, 100)
+    # bot.drive_forward(40,250)
+    # bot.turn_right(25, 102)
+    # bot.drive_forward(50,500)
 
 
 
 
-
-    #
-    #
-    #
-    #bot.drive_backward(2,25)
-    #bot.turn_right(94,50)
-    #bot.drive_forward(27,125)
-    #bot.turn_right(170,75)
-    #bot.drive_forward(35,125)
-    #bot.drive_backward(5, 25)
-    #bot.turn_right(45,50)
-    #bot.drive_forward(18, 100)
-    #bot.turn_left(91,50)
-    #bot.drive_backward(42,100)
-    #bot.turn_right(114,50)
-    #bot.drive_forward(68,150)
     try:
         print("[Mission 06, 07, 11] Complete")
         bot.hub.speaker.beep(frequency=1000, duration=200)
