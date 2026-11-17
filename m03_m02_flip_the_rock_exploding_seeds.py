@@ -26,8 +26,10 @@ def run_mission_03_02():
     bot.drive_forward(26.5, 200)
     bot.move_right_arm(120, 150)#lifting the seed
     bot.drive_backward(10, 200)
-    bot.turn_right(15, 150)
-    bot.drive_forward(35, 250)
+    bot.turn_right(17.5, 150)
+    bot.drive_forward(87.5, 300)
+    bot.turn_right(30, 150)
+    bot.drive_forward(65, 400)
     #bot.turn_left(40, 150)
     #bot.drive_forward(24.5, 250)
     #bot.turn_right(40, 150)
