@@ -46,9 +46,9 @@ def run_mission_05_08_15():
     bot.move_right_arm(130, 200)
     wait(1000)
     bot.turn_right(30, 200)
-    bot.drive_forward(60, 300)
+    bot.drive_forward(50, 300)
     bot.turn_right(45, 200)
-    bot.drive_forward(60, 300)
+    bot.drive_forward(60, 400)
     
     try:
         print("[Mission 05_08_15] Complete")
