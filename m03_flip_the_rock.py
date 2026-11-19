@@ -8,7 +8,7 @@ from base_robot import PybricksBot
 from pybricks.tools import wait
 
 
-def run_mission_03_02():
+def run_mission_03():
     bot = PybricksBot()
     try:
         print("[Mission 03 Part 2] Starting")
@@ -28,4 +28,4 @@ def run_mission_03_02():
 
 
 if __name__ == "__main__":
-    run_mission_03_02()
+    run_mission_03()
