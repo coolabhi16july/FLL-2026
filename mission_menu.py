@@ -16,7 +16,7 @@ import m09_lifting_the_platform as m09
 import m12_forest_elder as m12
 import m12_part2 as m12_2
 import m13_keystone_species as m13
-import m05_m8_m15_reaching_roots as m05_08_15
+import m05_m8_m15_reaching_roots_original_arm as m05_08_15
 
 # Mission dictionary
 OPTION_LABELS = ("1", "2", "3", "4", "5", "6", "7", "8", "9")
