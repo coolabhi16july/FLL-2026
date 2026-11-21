@@ -22,11 +22,11 @@ def run_mission_06_07_11():
 
 
             # TODO: implement real sequence
-    bot.move_left_arm(570, 502)
+    bot.move_left_arm(-570, 502)
     bot.drive_forward(65, 267)
-    bot.move_left_arm(-250, 502)
+    bot.move_left_arm(250, 502)
     bot.drive_backward(10, 200)
-    bot.move_left_arm(-500, 400)
+    bot.move_left_arm(500, 400)
     bot.turn_left(56, 125)
     bot.drive_forward(40, 200)
     bot.turn_left(34, 152)
