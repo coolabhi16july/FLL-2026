@@ -8,7 +8,7 @@ from pybricks.tools import hub_menu, wait
 
 # Import mission modules 
 import m01_Drone_Survey as m01
-import m03_m02_flip_the_rock_exploding_seeds as m03_m02
+import m03_m02_flip_the_rock_exploding_Old as m03_m02
 import m04_lucky_leaves as m04
 import m06_m07_m011_final as m06_m07_11
 import m09_lifting_the_platform as m09
