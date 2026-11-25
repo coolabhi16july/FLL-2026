@@ -18,7 +18,7 @@ def run_mission_05_08_15():
 
             # TODO: implement real sequence
     bot.move_right_arm(-430, 500)
-    bot.drive_forward(60, 250)
+    bot.drive_forward(70, 250)
     bot.move_right_arm(210, 500)
     wait(100)
     bot.drive_backward(4, 200)

@@ -24,7 +24,7 @@ def run_mission_01():
     bot.drive_forward(2, 170)
     bot.turn_left(30, 450)
     bot.turn_right(30, 150)
-    bot.drive_backward(65, 500)
+    bot.drive_backward(65, 560)
     try:
         print("[Mission 1] Complete")
         bot.hub.speaker.beep(frequency=1000, duration=200)
