@@ -31,10 +31,10 @@ def run_mission_05_08_15():
     wait(2000)
     bot.turn_right(30, 50)
     bot.drive_forward(15, 150) # Move Forward push the BioCentric solar panel
-    bot.move_right_arm(200, 200) # Move Right Arm up to move the vine root
+    bot.move_right_arm(210, 200) # Move Right Arm up to move the vine root
     bot.drive_backward(15, 200)
     wait(1000)
-    bot.turn_right(45, 150)
+    bot.turn_right(40, 150)
     bot.drive_forward(60, 200) # Pushing the skylight in Biocentric
     bot.drive_backward(5, 100)
     bot.turn_right(71, 150)
@@ -47,9 +47,9 @@ def run_mission_05_08_15():
     bot.move_right_arm(150, 200)
     wait(1000)
     bot.turn_right(15, 200)
-    bot.drive_forward(20, 400)
+    bot.drive_forward(40, 400)
     bot.turn_right(25, 200)
-    bot.drive_forward(60, 400)
+    bot.drive_forward(70, 400)
     
     try:
         print("[Mission 05_08_15] Complete")

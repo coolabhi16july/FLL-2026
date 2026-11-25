@@ -26,7 +26,7 @@ def run_mission_12():
     bot.move_right_arm(-100, 100)
     bot.drive_backward(17, 50)
     bot.turn_left(9, 50)
-    bot.move_right_arm(13 0, 100)
+    bot.move_right_arm(130, 100)
     bot.drive_backward(25, 250)
 
     try:

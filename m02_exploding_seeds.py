@@ -1,6 +1,6 @@
 """Mission 2 sequence.python --version
 
-Stub mission grouped for menu option 4. Replace placeholder steps with
+Stub mission grouped for menu option 2. Replace placeholder steps with
 actual mission logic.
 """
 
@@ -20,20 +20,9 @@ def run_mission_02():
 
     bot.drive_forward(6.56, 200)#mission 2 starts
     bot.turn_right(40, 100)
-    bot.drive_forward(25, 200)
+    bot.drive_forward(27, 200)
     bot.move_right_arm(200, 150)#lifting the seed
-    bot.drive_backward(10, 200)
-    bot.turn_right(35, 150)
-    bot.drive_forward(35, 250)
-    bot.turn_left(40, 150)
-    bot.drive_forward(22, 250)
-    bot.turn_right(30, 150)
-    bot.move_right_arm(-260, 250)#preaparing arm for econd seed
-    bot.drive_forward(28, 200)#g oing towards second seed
-    bot.turn_left(20, 100)
-    bot.move_right_arm(140, 150)#picking up second seed 
-    bot.turn_right(50, 150)
-    bot.drive_forward(80, 300)
+    bot.drive_backward(60, 400)
     try:  
         print("[Mission 02] Complete")
         bot.hub.speaker.beep(frequency=1000, duration=200)
