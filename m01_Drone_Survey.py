@@ -17,12 +17,12 @@ def run_mission_01():
         pass
 
             # TODO: implement real sequence
-    bot.drive_forward(75.5, 300)
+    bot.drive_forward(70, 300)
     wait(100)
     bot.turn_left(15, 200)
     wait(50)
-    bot.drive_forward(2.55, 210)
-    bot.turn_left(35, 350)
+    bot.drive_forward(2, 170)
+    bot.turn_left(30, 450)
     bot.turn_right(30, 150)
     bot.drive_backward(65, 500)
     try:
