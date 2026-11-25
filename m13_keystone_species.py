@@ -23,7 +23,7 @@ def run_mission_13():
 
 
             # TODO: implement real sequence
-    bot.drive_forward(60, 230)
+    bot.drive_forward(59, 230)
     bot.turn_right(30, 150)
     bot.drive_forward(10, 150)
     bot.move_left_arm(675, 550)

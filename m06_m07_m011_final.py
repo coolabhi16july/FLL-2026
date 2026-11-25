@@ -4,13 +4,8 @@
 Stub mission grouped for menu option 6. Replace placeholder steps with
 actual mission logic.
 """
-
-
 from base_robot import PybricksBot
 from pybricks.tools import wait
-
-
-
 
 def run_mission_06_07_11():
     bot = PybricksBot()
@@ -21,21 +16,25 @@ def run_mission_06_07_11():
         pass
 
 
-            # TODO: implement real sequence
+    # TODO: implement real sequence
     bot.move_left_arm(570, 502)
-    bot.drive_forward(65, 250)
-    bot.move_left_arm(-250, 502)
-    bot.drive_backward(10, 200)
+    bot.drive_forward(65, 250)  # Moving towards Humungus Fungus
+    bot.move_left_arm(-175, 502)
+    bot.drive_backward(9, 200)
+    bot.drive_forward(3, 150)
+    bot.move_left_arm(190, 502)
+    bot.turn_right(35, 125)
+    bot.drive_backward(4, 250)
     bot.move_left_arm(-500, 400)
-    bot.turn_left(57, 125)
-    bot.drive_forward(43, 200)
-    bot.turn_left(43, 152)
-    bot.drive_backward(16, 72)    
-    bot.drive_forward(4, 150)
-    bot.turn_left(67, 100)
-    bot.drive_forward(40, 250)
-    bot.turn_right(92, 102)
-    bot.drive_forward(50, 500)
+    bot.turn_left(115, 125)
+    bot.drive_forward(35, 200)
+    bot.turn_left(45, 152)
+    bot.drive_backward(15, 72)    
+    bot.drive_forward(3, 150)
+    bot.turn_left(95, 100)
+    bot.drive_forward(90, 400)
+    # bot.turn_right(45, 102)
+    # bot.drive_forward(50, 500)
     
     
     # bot.move_left_arm(570, 502)
@@ -62,9 +61,6 @@ def run_mission_06_07_11():
         bot.hub.speaker.beep(frequency=1000, duration=200)
     except Exception:
         pass
-
-
-
 
 if __name__ == "__main__":
     run_mission_06_07_11()
