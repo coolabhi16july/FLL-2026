@@ -22,7 +22,7 @@ def run_mission_01():
     bot.turn_left(15, 200)
     wait(50)
     bot.drive_forward(2, 170)
-    bot.turn_left(30, 450)
+    bot.turn_left(30, 500) #Flipping the flower bed
     bot.turn_right(30, 150)
     bot.drive_backward(65, 560)
     try:
