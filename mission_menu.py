@@ -10,8 +10,9 @@ from pybricks.tools import hub_menu, wait
 import m01_Drone_Survey as m01
 import m02_exploding_seeds as m02
 import m03_flip_the_rock as m03
-import m04_lucky_leaves as m04
+#import m04_lucky_leaves as m04
 import m05_m8_m15_reaching_roots_og_working as m05_08_15
+import m08_m09_research_platform_tangled  as m08_09
 import m06_m07_m011_final as m06_m07_11
 import m09_lifting_the_platform as m09
 import m12_forest_elder as m12
@@ -25,7 +26,7 @@ MISSIONS = {
     "1": m01.run_mission_01,
     "2": m02.run_mission_02,
     "3": m03.run_mission_03,
-    "4": m04.run_mission_04,
+    "4": m08_09.run_mission_08_09,
     "5": m05_08_15.run_mission_05_08_15,
     "6": m06_m07_11.run_mission_06_07_11,
     "7": m12.run_mission_12,
