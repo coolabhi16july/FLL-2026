@@ -27,8 +27,8 @@ def run_mission_05_08_15():
     bot.move_right_arm(400, 1000) # 2nd flick to flip the reaching roots
     bot.drive_backward(2, 200)
     # Mission 8: Tangle sequence
-    bot.move_right_arm(-225, 150)
-    wait(2000)
+    bot.move_right_arm(-230, 150)
+    wait(500)
     bot.turn_right(30, 50)
     bot.drive_forward(15, 150) # Move Forward push the BioCentric solar panel
     bot.move_right_arm(210, 200) # Move Right Arm up to move the vine root
