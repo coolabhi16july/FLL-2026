@@ -13,10 +13,10 @@ import m03_flip_the_rock as m03
 import m08_m09_research_platform_tangled as m04
 import m05_m8_m15_reaching_roots_og_working as m05_08_15
 import m06_m07_m011_final as m06_m07_11
-import m09_lifting_the_platform as m09
+import m09_lifting_the_platform as m09 
 import m12_forest_elder as m12
 import m12_part2 as m12_2
-import m13_keystone_species as m13
+import m13_keystone_species as m13 
 
 
 # Mission dictionary
