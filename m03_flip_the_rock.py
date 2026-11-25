@@ -8,27 +8,24 @@ from base_robot import PybricksBot
 from pybricks.tools import wait
 
 
-def run_mission_10():
+def run_mission_03():
     bot = PybricksBot()
     try:
-        print("[Mission 3] Starting")
+        print("[Mission 03 Part 2] Starting")
         bot.hub.speaker.beep()
     except Exception:
         pass
 
             # TODO: implement real sequence
     
-    bot.drive_forward(35.5, 200)
-    bot.move_left_arm(-300, 500)
-    bot.drive_backward(2, 100)
-    bot.move_left_arm(-350, 550)
-    bot.drive_forward(6, 300)
+    bot.drive_forward(50, 300)
+    bot.drive_backward(50, 250)#mission 3 ends
     try:
-        print("[Mission 3] Complete")
+        print("[Mission 03 Part 2] Complete")
         bot.hub.speaker.beep(frequency=1000, duration=200)
     except Exception:
         pass
 
 
 if __name__ == "__main__":
-    run_mission_10()
+    run_mission_03()

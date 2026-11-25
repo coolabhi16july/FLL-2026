@@ -1,49 +1,85 @@
-"""Mission 3 sequence.python --version
+"""Mission 6&11 sequence.python --version
 
-Stub mission grouped for menu option 4. Replace placeholder steps with
+
+
+
+Stub mission grouped for menu option 5. Replace placeholder steps with
 actual mission logic.
 """
+
+
+
 
 from base_robot import PybricksBot
 from pybricks.tools import wait
 
 
-def run_mission_10():
+
+
+
+
+
+
+def run_mission_06_07_11():
     bot = PybricksBot()
     try:
-        print("[Mission 6_7] Starting")
+        print("[Mission 06, 07, 11] Starting")
         bot.hub.speaker.beep()
     except Exception:
         pass
 
+
+
+
             # TODO: implement real sequence
-    bot.drive_forward(40, 200)
-    bot.turn_right(47, 100)
-    bot.drive_forward(43, 200)
-    bot.turn_left(65, 75)
-    bot.drive_forward(10, 100)
-    bot.drive_backward(2, 100)
-    bot.turn_left(50, 100)
-    bot.drive_backward(37, 100)
-    #bot.drive_forward(5.5, 150)
-    #bot.turn_left(37, 150)
-    #bot.drive_forward(65, 200)
+    bot.move_left_arm(570, 502)
+    bot.drive_forward(65, 267)
+    bot.move_left_arm(-400, 502)
+    bot.move_left_arm(350, 502)
+    bot.drive_backward(5,100)
+    bot.move_left_arm(-550, 502)
+    bot.turn_left(75,125)
+    bot.drive_forward(40, 125)
+    bot.turn_left(27, 152)
+    bot.drive_backward(16, 108)    
+    bot.drive_forward(1, 150)
+    bot.turn_left(95, 100)
+    bot.drive_forward(38,150)
+    bot.turn_right(25,102)
+    bot.drive_forward(50,300)
 
-    #bot.move_right_arm(-70, 121)
-    #bot.drive_forward(35, 200)
-    #bot.move_right_arm(170, 312)
-    #bot.drive_forward(2, 250)
-    #bot.turn_left(28, 100)
-    #bot.drive_forward(35, 250)
-    #bot.move_right_arm(35, 300)
 
-    
+   
+    # bot.move_left_arm(110, 75)
+    # bot.turn_left(90, 125)
+    # bot.drive_forward(40, 125)
+    # bot.turn_right(15, 75)
+    # bot.drive_forward(40, 125)
+   
+    #bot.drive_backward(2,25)
+    #bot.turn_right(94,50)
+    #bot.drive_forward(27,125)
+    #bot.turn_right(170,75)
+    #bot.drive_forward(35,125)
+    #bot.drive_backward(5, 25)
+    #bot.turn_right(45,50)
+    #bot.drive_forward(18, 100)
+    #bot.turn_left(91,50)
+    #bot.drive_backward(42,100)
+    #bot.turn_right(114,50)
+    #bot.drive_forward(68,150)
     try:
-        print("[Mission 6_7] Complete")
+        print("[Mission 06, 07, 11] Complete")
         bot.hub.speaker.beep(frequency=1000, duration=200)
     except Exception:
         pass
 
 
+
+
+
+
+
+
 if __name__ == "__main__":
-    run_mission_10()
+    run_mission_06_07_11()
