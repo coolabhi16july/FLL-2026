@@ -23,7 +23,7 @@ def run_mission_08_09():
     wait(50)
     bot.turn_left(78, 150)
     bot.move_right_arm(-375, 200)
-    bot.drive_forward(20, 560)
+    bot.drive_forward(15, 560)
     wait(1000)
     bot.drive_backward(5, 100)
     wait(1000)
