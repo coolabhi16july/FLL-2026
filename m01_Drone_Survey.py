@@ -17,7 +17,7 @@ def run_mission_01():
         pass
 
             # TODO: implement real sequence
-    bot.drive_forward(76, 250)
+    bot.drive_forward(75.5, 300)
     wait(100)
     bot.turn_left(15, 200)
     wait(50)
