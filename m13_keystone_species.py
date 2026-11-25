@@ -28,8 +28,6 @@ def run_mission_13():
     bot.drive_forward(10, 150)
     bot.move_left_arm(675, 550)
     bot.move_left_arm(-680, 550)
-    #bot.move_left_arm(675, 550)
-    #bot.move_left_arm(-680, 550)
     bot.drive_backward(5, 350)
     bot.turn_left(40, 150)
     bot.drive_backward(55, 1000)
