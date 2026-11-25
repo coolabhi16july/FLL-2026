@@ -22,16 +22,18 @@ def run_mission_08_09():
     bot.drive_forward(27, 150)
     wait(50)
     bot.turn_left(78, 150)
-    bot.move_right_arm(-375, 200)
-    bot.drive_forward(20, 560)
+    #Facing the research platform 
+    bot.move_right_arm(-375, 200) #Arm down to pick up the tangled platform
+    bot.drive_forward(20, 560) #
     wait(1000)
     bot.drive_backward(5, 100)
     wait(1000)
-    bot.drive_forward(15, 560)
-    bot.move_right_arm(300, 400)
+    #bot.drive_forward(20, 560)
+    bot.move_right_arm(320, 400) #Arm up to lift the tangled vined
     bot.drive_backward(5, 100)
     wait(1000)
-    bot.turn_right(15, 100)
+    #bot.move_right_arm(300, 200)
+    bot.turn_right(20, 100)
     bot.drive_backward(30, 300)
     bot.turn_right(15, 100)
     bot.drive_backward(70, 560)
